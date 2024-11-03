@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-[#9538E2] text-[white]">
             <div className="navbar-start">
-                <Link to='/' className="btn btn-ghost text-xl">Gadget Heaven</Link>
+                <Link to='/' className="btn btn-ghost text-2xl">Gadget Heaven</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 gap-5">
+                <ul className="menu menu-horizontal px-1 gap-5 text-base">
                     <Link to='/'>Home</Link>
                     <Link to='/statistics'>Statistics</Link>
                     <Link to='/dashboard'>Dashboard</Link>
