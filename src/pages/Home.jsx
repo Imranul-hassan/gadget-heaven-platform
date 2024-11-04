@@ -16,7 +16,7 @@ const Home = () => {
 
 
             {/* categories  */}
-        
+            <h3 className="text-3xl font-bold text-center mb-10">Explore Cutting-Edge Gadgets</h3>
             <div className="flex flex-row gap-3 w-10/12 mx-auto">
                 <div className="lg:w-[20%] ">
                     <Categories categories={categories}></Categories>

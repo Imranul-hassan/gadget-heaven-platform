@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 
 
@@ -10,9 +10,9 @@ const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 gap-5 text-base">
-                    <Link to='/'>Home</Link>
-                    <Link to='/statistics'>Statistics</Link>
-                    <Link to='/dashboard'>Dashboard</Link>
+                    <NavLink className={({isActive})=> `font-bold ${isActive? 'text-warning': 'hover:text-warning'}`} to='/'>Home</NavLink>
+                    <NavLink className={({isActive})=> `font-bold ${isActive? 'text-warning': 'hover:text-warning'}`} to='/statistics'>Statistics</NavLink>
+                    <NavLink className={({isActive})=> `font-bold ${isActive? 'text-warning': 'hover:text-warning'}`} to='/dashboard'>Dashboard</NavLink>
                 </ul>
             </div>
             <div className="navbar-end">
