@@ -1,7 +1,7 @@
 import banner from "../assets/banner.jpg"
 const Banner = () => {
     return (
-        <div className="hero bg-[#9538E2] text-white relative ">
+        <div className="hero bg-[#9538E2] text-white relative mb-80 ">
             <div className="hero-content text-center">
                 <div className="w-9/12 mb-28">
                     <h1 className="text-5xl font-bold">Upgrade Your Tech Accessorize with Gadget Heaven Accessories</h1>
@@ -11,8 +11,9 @@ const Banner = () => {
                     <button className="btn bg-[#FFFFFF] rounded-lg">Shop Now</button>
                 </div>
             </div>
-            <div className=" absolute  top-72 rounded-lg ">
-                    <img className=" w-[600px] h-[300px] rounded-lg p-3 border " src={banner} alt="" />
+            <div className="w-5/12  mx-auto absolute  top-72 rounded-lg ">
+                    <img className=" rounded-lg p-3 border " src={banner} alt="" />
+                    {/* w-[600px] h-[300px]  */}
             </div>
         </div>
     );

@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
 
+
+
 const Navbar = () => {
     return (
-        <div className="navbar bg-[#9538E2] text-[white]">
+        <div className="navbar bg-[#9538E2] text-[white] ">
             <div className="navbar-start">
                 <Link to='/' className="btn btn-ghost text-2xl">Gadget Heaven</Link>
             </div>
@@ -46,6 +48,10 @@ const Navbar = () => {
                 </div>
                 </button>
             </div>
+            
+           
+          
+            
         </div>
     );
 };

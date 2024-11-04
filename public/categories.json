@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "category": "Computer"
+    },
+    {
+        "id": 2,
+        "category": "Phone"
+    },
+    {
+        "id": 3,
+        "category": "Smartwatch"
+    }
+]
