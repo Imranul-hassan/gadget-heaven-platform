@@ -1,8 +1,7 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# GadgetHaven - E-commerce Platform
 
-Currently, two official plugins are available:
+[Live Website Link](https://gadget-heaven-react.netlify.app/)  
+[Requirement Document Link](/public/requirements.pdf)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+GadgetHaven is a responsive e-commerce platform for gadget shopping. It includes intuitive navigation, categorized products, detailed product pages, a shopping cart, and a wishlist. Users can filter and sort items, with persistent data management via LocalStorage.

@@ -7,11 +7,11 @@
         "price": 850,
         "description": "A lightweight yet powerful laptop with high-speed performance for everyday tasks.",
         "Specification": [
-            "Processor: Intel Core i7",
-            "RAM: 16GB",
-            "Storage: 512GB SSD",
-            "Display: 14-inch Full HD",
-            "Battery: 10 hours"
+            "Processor Intel Core i7",
+            "RAM 16GB",
+            "Storage 512GB SSD",
+            "Display 14-inch Full HD",
+            "Battery 10 hours"
         ],
         "availability": true,
         "rating": 4.5
@@ -24,11 +24,11 @@
         "price": 1200,
         "description": "A powerful desktop designed for both professional and personal use.",
         "Specification": [
-            "Processor: AMD Ryzen 7",
-            "RAM: 32GB",
-            "Storage: 1TB SSD",
-            "Graphics: NVIDIA GTX 1660",
-            "Operating System: Windows 11"
+            "Processor AMD Ryzen 7",
+            "RAM 32GB",
+            "Storage 1TB SSD",
+            "Graphics NVIDIA GTX 1660",
+            "Operating System Windows 11"
         ],
         "availability": true,
         "rating": 4.7
@@ -41,11 +41,11 @@
         "price": 600,
         "description": "Compact netbook ideal for students and light computing needs.",
         "Specification": [
-            "Processor: Intel Celeron",
-            "RAM: 4GB",
-            "Storage: 64GB eMMC",
-            "Display: 11.6-inch HD",
-            "Battery: 8 hours"
+            "Processor Intel Celeron",
+            "RAM 4GB",
+            "Storage 64GB eMMC",
+            "Display 11.6-inch HD",
+            "Battery 8 hours"
         ],
         "availability": false,
         "rating": 4.0
@@ -58,11 +58,11 @@
         "price": 1500,
         "description": "High-performance gaming PC for immersive gaming experiences.",
         "Specification": [
-            "Processor: Intel Core i9",
-            "RAM: 32GB",
-            "Storage: 2TB SSD",
-            "Graphics: NVIDIA RTX 3080",
-            "Cooling: Liquid cooling system"
+            "Processor Intel Core i9",
+            "RAM 32GB",
+            "Storage 2TB SSD",
+            "Graphics NVIDIA RTX 3080",
+            "Cooling Liquid cooling system"
         ],
         "availability": true,
         "rating": 4.9
@@ -75,45 +75,45 @@
         "price": 1300,
         "description": "A laptop built for creative professionals who need high power on the go.",
         "Specification": [
-            "Processor: Apple M1",
-            "RAM: 16GB",
-            "Storage: 1TB SSD",
-            "Display: 16-inch Retina",
-            "Battery: 12 hours"
+            "Processor Apple M1",
+            "RAM 16GB",
+            "Storage 1TB SSD",
+            "Display 16-inch Retina",
+            "Battery 12 hours"
         ],
         "availability": true,
         "rating": 4.8
     },
     {
         "product_id": 6,
-        "product_title": "Budget Desktop Essential",
+        "product_title": "Budget Desktop",
         "product_image": "https://i.ibb.co.com/VQXDjps/lap.png",
         "category": "Computer",
         "price": 500,
         "description": "Affordable desktop computer for everyday tasks and entertainment.",
         "Specification": [
-            "Processor: Intel Pentium",
-            "RAM: 8GB",
-            "Storage: 256GB SSD",
-            "Operating System: Windows 10",
-            "Connectivity: Wi-Fi, Bluetooth"
+            "Processor Intel Pentium",
+            "RAM 8GB",
+            "Storage 256GB SSD",
+            "Operating System Windows 10",
+            "Connectivity Wi-Fi, Bluetooth"
         ],
         "availability": false,
         "rating": 3.9
     },
     {
         "product_id": 7,
-        "product_title": "Smartphone Pro Max",
+        "product_title": "Smartphone Max",
         "product_image": "https://i.ibb.co.com/1dpnDwr/m2.jpg",
         "category": "Phone",
         "price": 900,
         "description": "A smartphone with advanced features and high performance.",
         "Specification": [
-            "Processor: Snapdragon 888",
-            "RAM: 12GB",
-            "Storage: 256GB",
-            "Camera: 108MP triple-lens",
-            "Battery: 5000mAh"
+            "Processor Snapdragon 888",
+            "RAM 12GB",
+            "Storage 256GB",
+            "Camera 108MP triple-lens",
+            "Battery 5000mAh"
         ],
         "availability": true,
         "rating": 4.6
@@ -126,11 +126,11 @@
         "price": 300,
         "description": "Affordable smartphone with essential features for everyday use.",
         "Specification": [
-            "Processor: MediaTek Helio G85",
-            "RAM: 4GB",
-            "Storage: 64GB",
-            "Camera: 12MP dual-lens",
-            "Battery: 4000mAh"
+            "Processor MediaTek Helio G85",
+            "RAM 4GB",
+            "Storage 64GB",
+            "Camera 12MP dual-lens",
+            "Battery 4000mAh"
         ],
         "availability": true,
         "rating": 4.2
@@ -143,28 +143,28 @@
         "price": 200,
         "description": "Advanced smartwatch with fitness tracking and health monitoring features.",
         "Specification": [
-            "Display: 1.4-inch AMOLED",
-            "Battery: 14 days",
-            "Water Resistance: 5ATM",
-            "Sensors: Heart rate, SpO2",
-            "Connectivity: Bluetooth, GPS"
+            "Display 1.4-inch AMOLED",
+            "Battery 14 days",
+            "Water Resistance 5ATM",
+            "Sensors Heart rate, SpO2",
+            "Connectivity Bluetooth, GPS"
         ],
         "availability": true,
         "rating": 4.4
     },
     {
         "product_id": 10,
-        "product_title": "Fitness Tracker Watch",
+        "product_title": "Tracker Watch",
         "product_image": "https://i.ibb.co.com/dGmdW3s/w2.jpg",
         "category": "Smartwatch",
         "price": 150,
         "description": "An affordable fitness tracker with all essential features.",
         "Specification": [
-            "Display: 1.2-inch LCD",
-            "Battery: 10 days",
-            "Water Resistance: 3ATM",
-            "Sensors: Heart rate, steps, sleep",
-            "Connectivity: Bluetooth"
+            "Display 1.2-inch LCD",
+            "Battery 10 days",
+            "Water Resistance 3ATM",
+            "Sensors Heart rate, steps, sleep",
+            "Connectivity Bluetooth"
         ],
         "availability": false,
         "rating": 4.1
