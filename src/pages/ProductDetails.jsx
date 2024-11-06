@@ -51,14 +51,17 @@ const ProductDetails = () => {
                 </div>
                 <div className="">
                         <h2 className="text-2xl my-2 font-bold">{product.product_title}</h2>
-                        <p>Price: {product.price}</p>
+                        <p className="font-bold">Price:$ {product.price}</p>
+                        <button className="bg-[#309C081A] py-1 px-3 mt-2 rounded-full">In Stock</button>
                         <p className="my-2">{description}</p>
                         {/* <div>
-                            { 
-                                Specification.map((feature, idx) => (
-                                    <span key={idx}>{feature}</span>
-                                ))
-                            }
+                            <ul>
+                                { 
+                                    Specification.map((feature, idx) => (
+                                        <li key={idx}>{feature}</li>
+                                    ))
+                                }
+                            </ul>
                         </div> */}
 
                         <div className="my-3">

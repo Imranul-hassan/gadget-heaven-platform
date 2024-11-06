@@ -53,8 +53,11 @@ const addHeart = product=>{
 }
 
 
+// remove all cart to local storage
+const removeCart =()=>{
+    localStorage.removeItem('carts');
+}
 
 
 
-
-export {addCart, getAllCarts, addHeart, getAllHearts}
+export {addCart, getAllCarts, addHeart, getAllHearts, removeCart}

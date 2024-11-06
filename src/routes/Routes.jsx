@@ -8,6 +8,7 @@ import ProductDetails from "../pages/ProductDetails";
 import DashboardCartData from "../components/DashboardCartData";
 import DashboardHeart from "../components/DashboardHeart";
 import About from "../pages/About";
+import ErrorPage from "../pages/ErrorPage";
 
 const routes = createBrowserRouter([
     {
@@ -57,9 +58,13 @@ const routes = createBrowserRouter([
                 path: '/product/:product_id',
                 element: <ProductDetails></ProductDetails>,
                 loader: ()=> fetch('/products.json')
-            }
+            },
         ]
-    }
+    },
+    {
+        path: '*',
+        element: <ErrorPage></ErrorPage>
+      }
   ])
 
 export default routes
