@@ -4,15 +4,13 @@ import { useLoaderData, useParams } from "react-router-dom";
 import Heading from "../components/Heading";
 import { CiHeart } from "react-icons/ci";
 import ReactStars from "react-rating-stars-component";
+import { addCart, addHeart, getAllCarts } from "../utils";
 
 const ProductDetails = () => {
     const allProduct = useLoaderData()
-    console.log(allProduct)
     const { product_id } = useParams()
-    console.log(product_id)
     const [product, setProduct] = useState({})
-    console.log(product)
-
+   
     const ratingChanged = (newRating) => {
         console.log(newRating);
       };
@@ -23,6 +21,17 @@ const ProductDetails = () => {
     },[allProduct, product_id])
     
     const { Specification, description, product_title, product_image, category, price} = product
+
+    const handleCart= (product)=>{
+        addCart(product)
+       
+    }
+
+    const handleHeart=(product)=>{
+        addHeart(product)
+
+    }
+
     return (
         <div className=" relative h-[550px] ">
             <div className="h-52 bg-[#9538E2] ">
@@ -62,10 +71,10 @@ const ProductDetails = () => {
                             </div>
                         </div>
                         <div>
-                            <button className="bg-[#9538E2] p-2 rounded-md text-white">
+                            <button onClick={()=> handleCart(product)} className="bg-[#9538E2] p-2 rounded-md text-white">
                                 Add to Cart
                             </button>
-                            <button className="border rounded-full p-2 ml-4"><CiHeart /></button>
+                            <button onClick={()=> handleHeart(product)} className="border rounded-full p-2 ml-4"><CiHeart /></button>
                         </div>
                 </div>
             </div>
