@@ -1,4 +1,5 @@
 
+import { TiDeleteOutline } from "react-icons/ti";
 const Heart = ({product}) => {
     const { product_title, product_image, description, price} = product
     
@@ -15,6 +16,7 @@ const Heart = ({product}) => {
                 <p className="font-bold">Price: ${price}</p>
                 <button className="w-32 border py-1 px-3 rounded-full text-white bg-[#9538E2] ">Add to Card</button>
             </div>
+            <p className="mt-16 text-3xl pr-12 text-red-500">  <TiDeleteOutline /></p>
         </div>
     );
 };

@@ -41,6 +41,12 @@ const addCart = product =>{
 const addHeart = product=>{
     const hearts = getAllHearts()
 
+    const isExist = hearts.find(item=> item.product_id == product.product_id)
+    console.log(product.product_id)
+    if(isExist) {
+        return toast.error('Already added wishlist!');
+    } 
+
     hearts.push(product)
     localStorage.setItem('hearts', JSON.stringify(hearts))
     toast.success('Successfully added wishlist!');

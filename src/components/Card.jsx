@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { TiDeleteOutline } from "react-icons/ti";
 
 const Card = ({product}) => {
     const {product_id, product_title, product_image, category, price} = product
