@@ -1,7 +1,7 @@
 
-# GadgetHaven - E-commerce Platform
+# GadgetHeaven - E-commerce Platform
 
-GadgetHaven is a e-commerce platform for gadget shopping. It includes intuitive navigation, categorized products, detailed product pages, a shopping cart, and a wishlist. Users can filter and sort items, with persistent data management via LocalStorage.
+GadgetHeaven is a e-commerce platform for gadget shopping. It includes intuitive navigation, categorized products, detailed product pages, a shopping cart, and a wishlist. Users can filter and sort items, with persistent data management via LocalStorage.
 
 ## Key Features
 
@@ -21,6 +21,6 @@ GadgetHaven is a e-commerce platform for gadget shopping. It includes intuitive 
 - **useEffect**: For updating the cart/wishlist when the data changes.
 - **LocalStorage**: Used for data persistence, ensuring cart and wishlist items remain intact upon page refresh.
 
-[Live Link Gadget Haven](https://gadget-heaven-react.netlify.app/) 
+Live Link: [Gadget Heaven](https://gadget-heaven-react.netlify.app/) 
 
-[Requirement Document Link](/public/requirements.pdf)
+Requirement Link: [Gadget Heaven Requirement](/public/requirements.pdf)
